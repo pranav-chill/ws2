@@ -1,0 +1,18 @@
+    1  history
+    2  ls
+    3  rm Unverified.txt
+    4  rm Verified.txt
+    5  ls
+    6  cut -f12 > AllVerified.txt
+    7  cut -f12 amazon_reviews_us_Books_v1_02.tsv > AllVerified.txt
+    8  nano AllVerified.txt
+    9  grep Y AllVerified.txt > Verified.txt
+   10  grep N AllVerified.txt > Unverified.txt
+   11  wc Verified.txt
+   12  wc Unverified.txt
+   13  wc Verified.txt > count.txt
+   14  wc Unverified >> count.txt
+   15  wc Unverified.txt >> count.txt
+   16  cat count.txt
+   17  nano count.txt
+   18  history > "cmds.log"
